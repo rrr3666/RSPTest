@@ -338,12 +338,12 @@
 
       // Загрузка файлов
       var unityLoader = document.createElement("script");
-      unityLoader.src = "Build/RSP.loader.js";
+      unityLoader.src = "Build/RSPTest.loader.js";
       unityLoader.onload = () => {
         createUnityInstance(canvas, {
-          dataUrl: "Build/RSP.data.unityweb",
-          frameworkUrl: "Build/RSP.framework.js.unityweb",
-          codeUrl: "Build/RSP.wasm.unityweb",
+          dataUrl: "Build/RSPTest.data.unityweb",
+          frameworkUrl: "Build/RSPTest.framework.js.unityweb",
+          codeUrl: "Build/RSPTest.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "TonBingo",
           productName: "RSP",
